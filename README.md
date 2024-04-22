@@ -207,7 +207,7 @@ Output:
 
 
 RESULT:
-    Thus the simulation and synthesis of Logic Gates, Adders and Subtractor using Xilinx ISE is simulated successfully.
+    Thus the simulation and synthesis of Logic Gates, Adders and Subtractor using vivado is simulated successfully.
 
 
 
