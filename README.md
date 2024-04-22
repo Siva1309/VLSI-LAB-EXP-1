@@ -140,7 +140,7 @@ Output:
 4 Bit Ripple Carry Adder
 
 VERILOG CODE:
-
+```
 module rippe_adder(S, Cout, X, Y,Cin);
 input [3:0] X, Y;// Two 4-bit inputs
 input Cin;
@@ -164,7 +164,7 @@ module fulladder(S, Co, X, Y, Ci);
  and G4(w3, X, Y);
  or G5(Co, w2, w3);
 endmodule
-
+```
 Output:
 
 ![image](https://github.com/Siva1309/VLSI-LAB-EXP-1/assets/166374356/3d18b226-a0d7-41cd-9191-41366946886c)
