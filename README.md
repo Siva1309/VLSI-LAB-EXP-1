@@ -64,6 +64,8 @@ endmodule
 Output:
 
 ![image](https://github.com/Siva1309/VLSI-LAB-EXP-1/assets/166374356/210b7dda-5a45-4a6e-9f65-8ab0cda1321d)
+![image](https://github.com/Siva1309/VLSI-LAB-EXP-1/assets/166374356/78b136f9-9ffd-4ec5-86e9-3177ab8c5e2c)
+
 
 
 Full adder:
@@ -86,6 +88,8 @@ endmodule
 Output:
 
 ![image](https://github.com/Siva1309/VLSI-LAB-EXP-1/assets/166374356/c5b32b8c-5f60-4410-b511-e27c5a288e72)
+![image](https://github.com/Siva1309/VLSI-LAB-EXP-1/assets/166374356/5adcb678-6dd7-48c5-9b61-bbfc1d4858e5)
+
 
 
 Half Subtractor:
@@ -106,6 +110,7 @@ endmodule
 Output:
 
 ![image](https://github.com/Siva1309/VLSI-LAB-EXP-1/assets/166374356/d37902f0-6525-458c-87f6-918a8d50f558)
+![image](https://github.com/Siva1309/VLSI-LAB-EXP-1/assets/166374356/188e2e75-27d7-4306-93e7-afac9e92fd9a)
 
 
 Full Subtractor:
@@ -130,6 +135,11 @@ endmodule
 Output:
 
 ![image](https://github.com/Siva1309/VLSI-LAB-EXP-1/assets/166374356/dbb730b5-01a8-464b-8c86-cd30b1bec59c)
+![image](https://github.com/Siva1309/VLSI-LAB-EXP-1/assets/166374356/2c748dff-93a1-47c2-b94f-5caf6d658585)
+
+4 Bit Ripple Carry Adder
+
+
 
 
 8 Bit Ripple Carry Adder
@@ -163,6 +173,7 @@ endmodule
 Output:
 
 ![image](https://github.com/Siva1309/VLSI-LAB-EXP-1/assets/166374356/27cace3a-114e-44e6-ac0d-1ee8441b9383)
+![image](https://github.com/Siva1309/VLSI-LAB-EXP-1/assets/166374356/c7b84ee8-a997-4caa-87aa-cb06e456999c)
 
 
 RESULT:
