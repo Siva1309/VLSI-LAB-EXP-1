@@ -5,7 +5,7 @@ AIM: To simulate and synthesis Logic Gates,Adders and Subtractor using vivado.
 APPARATUS REQUIRED: vivado 2023.1 software.
 
 PROCEDURE: 
-```
+
 1. Open Vivado: Launch Xilinx Vivado software on your computer.
 
 2. Create a New Project: Click on "Create Project" from the welcome page or navigate through "File" > "Project" > "New".
@@ -30,7 +30,7 @@ Logic Gates:
 ![image](https://github.com/navaneethans/VLSI-LAB-EXPERIMENTS/assets/6987778/ee17970c-3ac9-4603-881b-88e2825f41a4)
 
 Program:
-
+```
 module allgates(a,b,y1,y2,y3,y4,y5,y6,y7);
 input a,b;
 output y1,y2,y3,y4,y5,y6,y7;
@@ -42,7 +42,7 @@ xnor g5(y5,a,b);
 nand g6(y6,a,b);
 nor g7(y7,a,b);
 endmodule
-
+```
 Output:
 
 ![image](https://github.com/Siva1309/VLSI-LAB-EXP-1/assets/166374356/a3bbc017-03fd-4174-84c6-806d07729564)
@@ -53,14 +53,14 @@ Half Adder:
 ![image](https://github.com/navaneethans/VLSI-LAB-EXPERIMENTS/assets/6987778/0e1ecb96-0c25-4556-832b-aeeedfdfe7b9)
 
 VERILOG CODE:
-
+```
 module halfadder(a,b,s,c);
 input a,b;
 output s,c;
 xor (s,a,b);
 and (c,a,b);
 endmodule
-
+```
 Output:
 
 ![image](https://github.com/Siva1309/VLSI-LAB-EXP-1/assets/166374356/210b7dda-5a45-4a6e-9f65-8ab0cda1321d)
@@ -71,7 +71,7 @@ Full adder:
 ![image](https://github.com/navaneethans/VLSI-LAB-EXPERIMENTS/assets/6987778/9bb3964c-438f-469d-a3de-c1cca6f323fb)
 
 VERILOG CODE:
-
+```
 module fulladder(a,b,c,sum,carry);
 input a,b,c;
 output sum,carry;
@@ -82,7 +82,7 @@ and g3(w2,a,b);
 and g4(w3,w1,c);
 or g5(carry,w3,w2);
 endmodule
-
+```
 Output:
 
 ![image](https://github.com/Siva1309/VLSI-LAB-EXP-1/assets/166374356/c5b32b8c-5f60-4410-b511-e27c5a288e72)
@@ -93,7 +93,7 @@ Half Subtractor:
 ![image](https://github.com/navaneethans/VLSI-LAB-EXPERIMENTS/assets/6987778/731470b7-eb4e-49f8-8bb7-2994052a7184)
 
 VERILOG CODE:
-
+```
 module hasub(a,b,difference,borrow);
 input a,b;
 output difference,borrow;
@@ -102,7 +102,7 @@ xor g1(difference,a,b);
 not g2(w1,a);
 and g3(borrow,w1,b);
 endmodule
-
+```
 Output:
 
 ![image](https://github.com/Siva1309/VLSI-LAB-EXP-1/assets/166374356/d37902f0-6525-458c-87f6-918a8d50f558)
@@ -113,7 +113,7 @@ Full Subtractor:
 ![image](https://github.com/navaneethans/VLSI-LAB-EXPERIMENTS/assets/6987778/d66f874b-c1f2-44b3-a035-7149b56430c1)
 
 VERILOG CODE:
-
+```
 module fullsub(a,b,c,difference,borrow);
 input a,b,c;
 output difference,borrow;
@@ -126,7 +126,7 @@ not n2(w4,w2);
 and a2(w6,w4,c);
 or o1(borrow,w5,w6);
 endmodule
-
+```
 Output:
 
 ![image](https://github.com/Siva1309/VLSI-LAB-EXP-1/assets/166374356/dbb730b5-01a8-464b-8c86-cd30b1bec59c)
@@ -137,7 +137,7 @@ Output:
 ![image](https://github.com/navaneethans/VLSI-LAB-EXPERIMENTS/assets/6987778/7385a408-40a5-4203-8050-b72818622d79)
 
 VERILOG CODE:
-
+```
 module rca(a,b,cin,sum,carry);
 input a,b,cin;
 output sum,carry;
@@ -159,7 +159,7 @@ rca g2(.a(a[1]),.b(b[1]),.cin(c1),.s(sum[1]),.carry(c2));
 rca g3(.a(a[2]),.b(b[2]),.cin(c2),.s(sum[2]),.carry(c3));
 rca g4(.a(a[3]),.b(b[3]),.cin(c3),.s(sum[3]),.carry(cout));
 endmodule
-
+```
 Output:
 
 ![image](https://github.com/Siva1309/VLSI-LAB-EXP-1/assets/166374356/27cace3a-114e-44e6-ac0d-1ee8441b9383)
